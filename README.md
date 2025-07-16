@@ -8,12 +8,20 @@ Whether you're a student, pentester, or just curious — this tool gives you a h
 
 For each target in `target.txt`, this script automatically performs:
 
--  **Full TCP Port Scan** (`-p-`)
--  **Service & Version Detection** (`-sV`)
--  **Operating System Detection** (`-O`)
--  **Vulnerability Scanning** (`--script vuln`)
--  **UDP Scan** (`-sU`)
--  **Aggressive Scan** (`-A`)
--  **Firewall Evasion Scan** (`-f --data-length 200`)
+
+| 🔍 Scan Type               | 🧪 Description |
+|----------------------------|----------------|
+|  **Ping Scan**           | Checks if the host is up |
+|  **SYN Scan**            | Stealthy TCP port scan |
+|  **Service Version Detection** | Detects services and versions on open ports |
+|  **Aggressive Scan**     | Enables OS detection, version detection, script scanning, and traceroute |
+|  **Top 100 Ports Scan**  | Scans the top 100 most common TCP ports |
+|  **UDP Scan**            | Scans for open UDP ports (slow but important) |
+|  **OS Detection**        | Attempts to detect the host’s operating system |
+|  **Vulnerability Scan**  | Uses built-in NSE scripts to identify known vulnerabilities |
+|  **Firewall Evasion Scan** | Sends fragmented packets to bypass firewalls |
+|  **NULL Scan**           | Sends packets with no flags for stealthy detection |
+|  **XMAS Scan**           | Sends packets with FIN, PSH, and URG flags to test for filtering |
+|  **Default NSE Scripts** | Runs Nmap's default script set for common vulnerabilities and enumeration |
 
 All scan results are saved into a timestamped folder under the `scans/` directory, with separate output files for each scan type.
