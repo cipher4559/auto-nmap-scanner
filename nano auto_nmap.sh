@@ -2,7 +2,7 @@
 
 # === Nmap Automation Tool by Manikanta Reddy ===
 # 📍 Includes Ping, SYN, Version, Aggressive, Top 100, UDP, OS Detection, Vulnerability, Firewall Evasion
-
+ 
 # ==== Configuration ====
 TARGETS_FILE="targets.txt"                   # Input: list of IPs/domains
 OUTPUT_DIR="nmap_scan_$(date +%F_%H-%M-%S)"  # Output folder with timestamp
