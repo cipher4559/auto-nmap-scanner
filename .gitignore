@@ -1,0 +1,11 @@
+# Ignore all scan output folders
+scans/
+
+# Ignore temp/junk files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS junk (Mac)
+.DS_Store
