@@ -28,3 +28,9 @@ For each target in `target.txt`, this script automatically performs:
 |  **Default NSE Scripts** | Runs Nmap's default script set for common vulnerabilities and enumeration |
 
 All scan results are saved into a timestamped folder under the `scans/` directory, with separate output files for each scan type.
+🛠️ How to Use
+
+### 1️ Clone the Repository
+```bash
+git clone https://github.com/yourusername/nmap-automation-tool.git
+cd nmap-automation-tool
