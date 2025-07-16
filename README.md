@@ -30,7 +30,77 @@ For each target in `target.txt`, this script automatically performs:
 All scan results are saved into a timestamped folder under the `scans/` directory, with separate output files for each scan type.
 🛠️ How to Use
 
-### 1️ Clone the Repository
+###  Clone the Repository
 ```bash
 git clone https://github.com/yourusername/nmap-automation-tool.git
 cd nmap-automation-tool
+```
+
+# Add Target IPs or Domains
+Edit the targets.txt file and add your targets (one per line):
+
+Add target IPs or domains here
+
+scanme.nmap.org
+
+192.168.1.1
+
+# Make the Script Executable
+chmod +x auto_nmap.sh
+
+# Run the Script
+./auto_nmap.sh
+
+# View the Results
+Scan results will be saved in a timestamped folder like:
+
+nmap_scan_2025-07-16_14-45-33/
+
+Each scan type will be saved as a separate .txt file under that folder for every target.
+
+# Files Included
+File Name	Description
+
+auto_nmap.sh :	Main Bash script that runs all scans
+
+targets.txt	: List of targets (IP/domain)
+
+.gitignore	: Prevents scan results from being uploaded
+
+README.md :	This documentation
+
+LICENSE	MIT License
+
+# Requirements
+✅ Linux/Unix system (tested on Kali and Ubuntu)
+
+✅ Nmap installed
+
+If not installed:
+
+sudo apt update && sudo apt install nmap
+
+## License
+This project is licensed under the MIT License — feel free to use, modify, or share it!
+
+# Connect with Me
+Manikanta Reddy
+
+💼 Cybersecurity & Ethical Hacking Student
+
+📍 Hyderabad, India
+
+📧 mmkr4559@gmail.com
+
+⭐️ Show Your Support!
+
+If this tool helps you:
+
+⭐️ Star the repo
+
+🛠 Fork it
+
+📣 Share with your hacker friends
+
+Let’s automate more together
+
