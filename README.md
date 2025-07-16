@@ -30,7 +30,7 @@ For each target in `target.txt`, this script automatically performs:
 All scan results are saved into a timestamped folder under the `scans/` directory, with separate output files for each scan type.
 🛠️ How to Use
 
-###  Clone the Repository
+#  Clone the Repository
 ```bash
 git clone https://github.com/yourusername/nmap-automation-tool.git
 cd nmap-automation-tool
