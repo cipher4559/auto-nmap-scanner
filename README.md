@@ -1,3 +1,6 @@
+ This project was created using **Prompt Engineering techniques** with the help of OpenAI’s ChatGPT.  
+I guided the tool with carefully crafted prompts to automate real-world Nmap scans for cybersecurity workflows.
+
 # auto-nmap-scanner
 A simple yet powerful Bash script that automates Nmap scans for multiple targets — perfect for cybersecurity students and pentesters.
 ## Why I Built This
